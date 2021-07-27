@@ -31,6 +31,8 @@ class PID {
    */
   double TotalError();
 
+  void UpdateP(int index, double amount);
+
  private:
   /**
    * PID Errors
